@@ -1,0 +1,141 @@
+/* GENERAL */
+
+.title {
+  text-align: center;
+}
+
+/* INTRO SECTION */
+
+
+
+/* ME SECTON */
+
+#picture-of-me {
+  width: 300px;
+  height: 300px;
+  background: url(http://cdn3-www.dogtime.com/assets/uploads/gallery/pembroke-welsh-corgi-dog-breed-pictures/prance-8.jpg) center no-repeat;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+}
+
+/* EDUCATION AND EXPERIENCE SECTION */
+
+
+
+/* PROJECT SECTION */
+
+.fp-controlArrow.fp-prev {
+  border-color: transparent black transparent transparent;
+  opacity: 0.5;
+}
+
+.fp-controlArrow.fp-prev:hover {
+  border-color: transparent black transparent transparent;
+  opacity: 0.7;
+}
+
+.fp-controlArrow.fp-next {
+  border-color: transparent transparent transparent black;
+  opacity: 0.5;
+}
+
+.fp-controlArrow.fp-next:hover {
+  border-color: transparent transparent transparent black;
+  opacity: 0.7;
+}
+
+/* PROJECT INTRO */
+
+#project-profile1 {
+  left: 50%;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+  float: left;
+  margin: 4px 4px 4px -136px;
+}
+
+#project-profile1 h4 {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  text-align: center;
+}
+
+#project-profile2 {
+  left: 50%;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+  float: left;
+  margin: 4px 4px 4px 4px;
+}
+
+#project-profile2 h4 {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  text-align: center;
+}
+
+#project-profile3 {
+  left: 50%;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+  float: left;
+  margin: 4px 4px 4px -136px;
+  clear: left;
+}
+
+#project-profile3 h4 {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  text-align: center;
+}
+
+#project-profile4 {
+  left: 50%;
+  position: relative;
+  width: 130px;
+  height: 130px;
+  border: 1px solid black;
+  float: left;
+  margin: 4px 4px 4px 4px;
+}
+
+#project-profile4 h4 {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  text-align: center;
+}
+
+/* PROJECT ONE */
+
+#project-one {
+  /*background-color: black;*/
+}
+
+/* PROJECT TWO */
+
+#project-two {
+  /*background-color: blue;*/
+}
+
+/* PROJECT THREE */
+
+
