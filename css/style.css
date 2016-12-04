@@ -12,17 +12,23 @@ body {
 }
 
 /* OPENING PAGE PAGE */
-
+#intro-page {
+  background: url(../image/space-background.jpg) no-repeat;
+}
 .open1 {
+  font-size: 20px;
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 .open2 {
-  font-size: 70px;
+  font-size: 100px;
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 .open3 {
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 
 /* ME PAGE */
@@ -97,12 +103,10 @@ body {
   border: 1px solid black;
   background: url(../image/the-weeknd-starboy.png) no-repeat;
   background-size: 100%;
-  opacity: 0.7;
   -webkit-transition: .5s ease-in-out;
 }
 #project-profile1:hover {
-  opacity: 1.0;
-  filter: brightness(150%);
+  filter: brightness(125%);
   -webkit-transition: .5s ease-in-out;
 }
 #project1-holder h4 {
@@ -125,12 +129,10 @@ body {
   border: 1px solid black;
   background: url(../image/61BIVsfIUzL.jpg) no-repeat;
   background-size: 100%;
-  opacity: 0.7;
   -webkit-transition: .5s ease-in-out;
 }
 #project-profile2:hover {
-  opacity: 1.0;
-  filter: brightness(150%);
+  filter: brightness(125%);
   -webkit-transition: .5s ease-in-out;
 }
 #project2-holder h4 {
@@ -154,12 +156,10 @@ body {
   border: 1px solid black;
   background: url(../image/coldplayxy.jpg) no-repeat;
   background-size: 100%;
-  opacity: 0.7;
   -webkit-transition: .5s ease-in-out;
 }
 #project-profile3:hover {
-  opacity: 1.0;
-  filter: brightness(150%);
+  filter: brightness(125%);
   -webkit-transition: .5s ease-in-out;
 }
 #project3-holder h4 {
@@ -182,12 +182,10 @@ body {
   border: 1px solid black;
   background: url(../image/gaslight-handwritten.jpg) no-repeat;
   background-size: 100%;
-  opacity: 0.7;
   -webkit-transition: .5s ease-in-out;
 }
 #project-profile4:hover {
-  opacity: 1.0;
-  filter: brightness(150%);
+  filter: brightness(125%);
   -webkit-transition: .5s ease-in-out;
 }
 #project4-holder h4 {
