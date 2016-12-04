@@ -33,11 +33,19 @@
 
       <!-- INTRO SECTION -->
       <div class="section container-fluid">
-        <div class="col-sm-12 col-xs-12">
-          <section id="intro">Hello my name is </section>
-          <section id="my-name">Vincent Fung</section>
-          <section>and I'm a</section>
-          <section>Full-Stack Web Developer</section>
+        <div class="row">
+          <div class="col-sm-3 col-sm-offset-3 col-xs-12">
+            <h6 class="open1">HELLO, MY NAME IS</h6>
+          </div>
+          <div class="col-sm-12 col-xs-12">
+            <p class="open2">VINCENT FUNG</p>
+          </div>
+          <div class="col-sm-3 col-sm-offset-6 col-xs-12">
+            <h6 class="open1">AND I'M A</h6>
+          </div>
+          <div class="col-sm-12 col-xs-12">
+            <p class="open3">FULL-STACK WEB DEVELOPER</p>
+          </div>
         </div>
       </div>
 
@@ -45,7 +53,7 @@
       <div class="section container-fluid"">
         <div class="row">
           <div class="col-sm-12 col-xs-12">
-            <h1 class="title">#ABOUT-ME</h1>
+            <h1 class="title">#ABOUT</h1>
           </div>
         </div>
         <div class="row">
@@ -73,7 +81,31 @@
       <div class="section container-fluid">
         <div class="row">
           <div class="col-lg-12 col-md-12 col-xs-12">
-            <h1 class="title">#EDUCATION AND EXPERIENCE</h1>
+            <h1 class="title">#EDUCATION, #EXPERIENCES & #SKILLS</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-2">
+            <h3>Experience and Education</h3>
+            <ul class="exp-edu">
+              <li>Web Development Immersive</li>
+              <li>General Assembley, Hong Kong, Aug 2016 - Nov 2016</li>
+            </ul>
+            <ul class="exp-edu">
+              <li>Contract Fund Accountant</li>
+              <li>ICBC, Hong Kong, Jan 2016 - Aug 2016</li>
+            </ul>
+            <ul class="exp-edu">
+              <li>Supplies Business Analyst</li>
+              <li>Xerox Ltd, London, May 2014 - Sep 2015</li>
+            </ul>
+            <ul class="exp-edu">
+              <li>BSc Hons Economics</li>
+              <li>University of Essex, Colchester, Sep 2008 - Jul 2012 </li>
+            </ul>
+          </div>
+          <div class="col-sm-3 col-xs-12">
+            <h3>Skills</h3>
           </div>
         </div>
       </div>
@@ -90,23 +122,37 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-sm-8 col-sm-offset-2">
-                <p>Swipe left or right to view the projects that I have completed during my time in the WDI course. Alternatively click on one of the images below to quickly navigate to the project you want to see.</p>
+              <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                <p id="intro-paragraph">Here you can view the projects that I have completed during my time in WDI. To view the projects click on the arrows or alternatively you can use the navigation below to quickly navigate to the project that you want to see.</p>
               </div>
-              <div class="col-sm-8 col-sm-offset-2">
-                <a href="#">
-                  <div id="project-profile1">
-                    <h4>PROJECT 1</h4>
-                  </div>
-                </a>
-                <div id="project-profile2">
-                  <h4>PROJECT 2</h4>
+              <div class="col-sm-8 col-sm-offset-2 col-xs-12">
+                <div id="project1-holder">
+                  <a href="#">
+                    <div id="project-profile1">
+                    </div>
+                  </a>
+                  <h4>RICK & MORTY</h4>
                 </div>
-                <div id="project-profile3">
-                  <h4>PROJECT 3</h4>
+                <div id="project2-holder">
+                  <a href="#">
+                    <div id="project-profile2">
+                    </div>
+                  </a>
+                  <h4>HOME 1.0</h4>
                 </div>
-                <div id="project-profile4">
-                  <h4>PROJECT 4</h4>
+                <div id="project3-holder">
+                  <a href="#">
+                    <div id="project-profile3">
+                    </div>
+                  </a>
+                  <h4>250px</h4>
+                </div>
+                <div id="project4-holder">
+                  <a href="#">
+                    <div id="project-profile4">
+                    </div>
+                  </a>
+                  <h4>HOME 2.0</h4>
                 </div>
               </div>
             </div>
@@ -117,11 +163,30 @@
         <div class="slide" id="project-one">
           <div class="row">
             <div class="col-sm-12">
-              <div class="col-sm-5 col-sm-offset-1">
-                <h1>Picture Of It Here</h1>
+              <h1 class="title">Rick & Morty</h1>
+              <h2 class="title">Escape from The Galactic Bay</h2>
+              <div class="col-sm-5 col-sm-offset-1 col-xs-12 proj-sec1">
+                <div id="project-one-img"></div>
+                <h4>Front-End</h4>
+                <p>
+                  <span class="skills">HTML5</span>
+                  <span class="skills">CSS3</span>
+                  <span class="skills">Bootstrap</span>
+                  <span class="skills">JavaScript</span>
+                  <span class="skills">jQuery</span>
+                </p>
               </div>
-              <div class="col-sm-5">
-                <p>Talkie Stuff Here</p>
+              <div class="col-sm-5 col-xs-12 proj-sec2">
+                <div class="col-sm-12">
+                  <h4>Vertical Scrolling Shooter Game - A Shout Out to a Bygone Era!</h4>
+                  <p>
+                    For my first project I decided to create a Raiden clone as the technology required to create this game covered a lot of what I had learnt in the previous two weeks. </br></br>
+                    The take away from this project was that not only did I learn a lot about HTML5, CSS3 and jQuery, I also learnt a lot about Object-oriented Programming and this formed the foundations on how I should look at and write clean code.
+                  </p>
+                  <p>
+                    <b>VIEW</b> <a href="#" target="_blank">Demo</a> | <a href="https://github.com/fung-vin/web-game" target="_blank">GitHub</a>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -129,24 +194,123 @@
 
         <!-- PROJECT TWO -->
         <div class="slide" id="project-two">
-
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="title">Home</h1>
+              <div class="col-sm-5 col-sm-offset-1 col-xs-12 proj-sec1">
+                <div id="project-one-img"></div>
+                <h4>Front-End</h4>
+                  <p>
+                    <span class="skills">HTML5</span>
+                    <span class="skills">CSS3</span>
+                    <span class="skills">Jade</span>
+                    <span class="skills">Bootstrap</span>
+                    <span class="skills">JavaScript</span>
+                    <span class="skills">jQuery</span>
+                  </p>
+                <h4>Back-End</h4>
+                  <p>
+                    <span class="skills">MongoDB</span>
+                    <span class="skills">Node.js</span>
+                    <span class="skills">Express.js</span>
+                    <span class="skills">Mongoose</span>
+                  </p>
+              </div>
+              <div class="col-sm-5 col-xs-12 proj-sec2">
+                <div class="col-sm-12">
+                  <h4>Reinventing the Home Page for Web 2.0</h4>
+                  <p>
+                    For my first project I decided to create a Raiden clone as the technology required to create this game covered a lot of what I had learnt in the previous two weeks. </br></br>
+                    The take away from this project was that not only did I learn a lot about HTML5, CSS3 and jQuery, I also learnt a lot about Object-oriented Programming and this formed the foundations on how I should look at and write clean code.
+                  </p>
+                  <p>
+                    <b>VIEW</b> <a href="#" target="_blank">Demo</a> | <a href="#" target="_blank">GitHub</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- PROJECT THREE -->
         <div class="slide" id="project-three">
-
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="title">250px</h1>
+              <div class="col-sm-5 col-sm-offset-1 col-xs-12 proj-sec1">
+                <div id="project-one-img"></div>
+                <h4>Front-End</h4>
+                  <p>
+                    <span class="skills">HTML5</span>
+                    <span class="skills">CSS3</span>
+                    <span class="skills">Bootstrap</span>
+                    <span class="skills">JavaScript</span>
+                    <span class="skills">jQuery</span>
+                  </p>
+                <h4>Back-End</h4>
+                  <p>
+                    <span class="skills">Ruby on Rails</span>
+                    <span class="skills">Postgres</span>
+                  </p>
+              </div>
+              <div class="col-sm-5 col-xs-12 proj-sec2">
+                <div class="col-sm-12">
+                  <h4>A Place for Photographers to Share Their Work</h4>
+                  <p>
+                    For my first project I decided to create a Raiden clone as the technology required to create this game covered a lot of what I had learnt in the previous two weeks. </br></br>
+                    The take away from this project was that not only did I learn a lot about HTML5, CSS3 and jQuery, I also learnt a lot about Object-oriented Programming and this formed the foundations on how I should look at and write clean code.
+                  </p>
+                  <p>
+                    <b>VIEW</b> <a href="#" target="_blank">Demo</a> | <a href="#" target="_blank">GitHub</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <!-- PROJECT FOUR -->
         <div class="slide" id="project-four">
-
+          <div class="row">
+            <div class="col-sm-12">
+              <h1 class="title">Home</h1>
+              <div class="col-sm-5 col-sm-offset-1 col-xs-12 proj-sec1">
+                <div id="project-one-img"></div>
+                <h4>Front-End</h4>
+                  <p>
+                    <span class="skills">HTML5</span>
+                    <span class="skills">CSS3</span>
+                    <span class="skills">Bootstrap</span>
+                    <span class="skills">JavaScript</span>
+                    <span class="skills">jQuery</span>
+                  </p>
+                <h4>Back-End</h4>
+                  <p>
+                    <span class="skills">Ruby on Rails</span>
+                    <span class="skills">Postgres</span>
+                  </p>
+              </div>
+              <div class="col-sm-5 col-xs-12 proj-sec2">
+                <div class="col-sm-12">
+                  <h4>There and Back Again</h4>
+                  <p>
+                    For my first project I decided to create a Raiden clone as the technology required to create this game covered a lot of what I had learnt in the previous two weeks. </br></br>
+                    The take away from this project was that not only did I learn a lot about HTML5, CSS3 and jQuery, I also learnt a lot about Object-oriented Programming and this formed the foundations on how I should look at and write clean code.
+                  </p>
+                  <p>
+                    <b>VIEW</b> <a href="#" target="_blank">Demo</a> | <a href="#" target="_blank">GitHub</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
 
       <!-- CONTACT SECTION -->
       <div class="section container-fluid"">
-        <p>Contact Me</p>
+        <h1 class="title">#CONTACT</h1>
       </div>
 
     </div>

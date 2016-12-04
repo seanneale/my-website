@@ -1,14 +1,31 @@
 /* GENERAL */
-
+body {
+  background-color: black;
+  color: white;
+}
 .title {
   text-align: center;
 }
 
-/* INTRO SECTION */
+.skills {
 
+}
 
+/* OPENING PAGE PAGE */
 
-/* ME SECTON */
+.open1 {
+  text-align: center;
+}
+.open2 {
+  font-size: 70px;
+  text-align: center;
+}
+.open3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* ME PAGE */
 
 #picture-of-me {
   width: 300px;
@@ -19,123 +36,194 @@
   position: relative;
 }
 
-/* EDUCATION AND EXPERIENCE SECTION */
+/* EDUCATION AND EXPERIENCE PAGE */
 
+.exp-edu {
+  list-style: none;
+  padding: 0px;
+}
+.exp-edu li:first-child {
+  font-size: 16px;
+  font-weight: bold;
+}
+.exp-edu li:last-child {
+  font-size: 12px;
+}
 
+/* PROJECT INTRO PAGE */
 
-/* PROJECT SECTION */
+/* ARROWS */
 
 .fp-controlArrow.fp-prev {
-  border-color: transparent black transparent transparent;
+  border-color: transparent white transparent transparent;
   opacity: 0.5;
+  -webkit-transition: .5s ease-in-out;
 }
-
 .fp-controlArrow.fp-prev:hover {
-  border-color: transparent black transparent transparent;
+  border-color: transparent white transparent transparent;
   opacity: 0.7;
+  -webkit-transition: .5s ease-in-out;
 }
-
 .fp-controlArrow.fp-next {
-  border-color: transparent transparent transparent black;
+  border-color: transparent transparent transparent white;
   opacity: 0.5;
+  -webkit-transition: .5s ease-in-out;
 }
-
 .fp-controlArrow.fp-next:hover {
-  border-color: transparent transparent transparent black;
+  border-color: transparent transparent transparent white;
   opacity: 0.7;
+  -webkit-transition: .5s ease-in-out;
 }
 
-/* PROJECT INTRO */
+/* INTRO OPENING PARAGRAPH */
 
+#intro-paragraph {
+  text-align: center;
+}
+
+/* PROJECT ONE THUMBNAIL */
+
+#project1-holder {
+  width: 200px;
+  height: 230px;
+  margin: 4px 4px 4px -204px;
+  left: 50%;
+  position: relative;
+  float: left;
+}
 #project-profile1 {
-  left: 50%;
-  position: relative;
-  width: 130px;
-  height: 130px;
+  width: 200px;
+  height: 200px;
   border: 1px solid black;
-  float: left;
-  margin: 4px 4px 4px -136px;
+  background: url(../image/the-weeknd-starboy.png) no-repeat;
+  background-size: 100%;
+  opacity: 0.7;
+  -webkit-transition: .5s ease-in-out;
 }
-
-#project-profile1 h4 {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  top: 50%;
-  margin-top: -10px;
+#project-profile1:hover {
+  opacity: 1.0;
+  filter: brightness(150%);
+  -webkit-transition: .5s ease-in-out;
+}
+#project1-holder h4 {
   text-align: center;
 }
 
-#project-profile2 {
-  left: 50%;
-  position: relative;
-  width: 130px;
-  height: 130px;
-  border: 1px solid black;
-  float: left;
+/* PROJECT TWO THUMBNAIL */
+
+#project2-holder {
+  width: 200px;
+  height: 230px;
   margin: 4px 4px 4px 4px;
+  left: 50%;
+  position: relative;
+  float: left;
 }
-
-#project-profile2 h4 {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  top: 50%;
-  margin-top: -10px;
+#project-profile2 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background: url(../image/61BIVsfIUzL.jpg) no-repeat;
+  background-size: 100%;
+  opacity: 0.7;
+  -webkit-transition: .5s ease-in-out;
+}
+#project-profile2:hover {
+  opacity: 1.0;
+  filter: brightness(150%);
+  -webkit-transition: .5s ease-in-out;
+}
+#project2-holder h4 {
   text-align: center;
 }
 
-#project-profile3 {
+/* PROJECT THREE THUMBNAIL */
+
+#project3-holder {
+  width: 200px;
+  height: 230px;
+  margin: 4px 4px 4px -204px;
   left: 50%;
   position: relative;
-  width: 130px;
-  height: 130px;
-  border: 1px solid black;
   float: left;
-  margin: 4px 4px 4px -136px;
   clear: left;
 }
-
-#project-profile3 h4 {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  top: 50%;
-  margin-top: -10px;
+#project-profile3 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background: url(../image/coldplayxy.jpg) no-repeat;
+  background-size: 100%;
+  opacity: 0.7;
+  -webkit-transition: .5s ease-in-out;
+}
+#project-profile3:hover {
+  opacity: 1.0;
+  filter: brightness(150%);
+  -webkit-transition: .5s ease-in-out;
+}
+#project3-holder h4 {
   text-align: center;
 }
 
-#project-profile4 {
+/* PROJECT FOUR THUMBNAIL */
+
+#project4-holder {
+  width: 200px;
+  height: 230px;
+  margin: 4px 4px 4px 4px;
   left: 50%;
   position: relative;
-  width: 130px;
-  height: 130px;
-  border: 1px solid black;
   float: left;
-  margin: 4px 4px 4px 4px;
 }
-
-#project-profile4 h4 {
-  position: absolute;
-  width: 100%;
-  height: 20px;
-  top: 50%;
-  margin-top: -10px;
+#project-profile4 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  background: url(../image/gaslight-handwritten.jpg) no-repeat;
+  background-size: 100%;
+  opacity: 0.7;
+  -webkit-transition: .5s ease-in-out;
+}
+#project-profile4:hover {
+  opacity: 1.0;
+  filter: brightness(150%);
+  -webkit-transition: .5s ease-in-out;
+}
+#project4-holder h4 {
   text-align: center;
 }
 
-/* PROJECT ONE */
+/* PROJECT ONE PAGE */
 
 #project-one {
   /*background-color: black;*/
 }
+#project-one-img {
+  position: relative;
+  left: 50%;
+  width: 270px;
+  height: 230px;
+  border: 1px solid black;
+  margin-left: -135px;
+  margin-top: 15px;
+}
+.proj-sec1 h4 {
+  text-align: center;
+}
+.proj-sec1 p {
+  text-align: center;
+}
+.proj-sec2 p {
+  /*color: blue;*/
+}
 
-/* PROJECT TWO */
+/* PROJECT TWO PAGE */
 
 #project-two {
   /*background-color: blue;*/
 }
 
-/* PROJECT THREE */
+/* PROJECT THREE PAGE */
 
 
